@@ -44,11 +44,10 @@ public static void setUp() throws SQLException, ClassNotFoundException
 }
 
 
-
+//might need to fix
     @Test
-    public void testSetup() throws SQLException, ClassNotFoundException
+    public void testSetup()
     {
-
         assertNotNull(singleton);
     }
 
